@@ -1,0 +1,99 @@
+.collection {
+    align-items: center;
+}
+
+.collectionDes {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.collectionDes p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+.collectionDes a {
+    background-color: black !important;
+    color: white !important;
+    padding: 8px 20px !important;
+    border: none !important;
+}
+
+.collectionDes a:hover {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+.welcome {
+    background-color: black;
+    color: white;
+}
+
+.welcomeDes {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcomeDes p {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+#testimonialCarousel {
+    font-family: "Inria Serif", serif;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: gray;
+}
+
+.carousel-inner .row {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item p {
+    font-family: "Inria Serif", serif;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .collection .col-md-6 {
+        order: 1;
+    }
+
+    .collectionDes {
+        margin-top: 20px;
+    }
+
+    .collectionDes a {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .welcome .col-md-8 {
+        order: 2;
+    }
+
+    .welcome .col-md-4 {
+        order: 1;
+        margin-top: 20px;
+    }
+
+}

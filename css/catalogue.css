@@ -1,0 +1,30 @@
+.title {
+    font-family: "Inria Serif", serif;
+}
+
+.row {
+    font-family: "Inria Serif", serif;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.product-link:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.product-image {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.product-link:hover .product-image {
+    transform: scale(1.1);
+}

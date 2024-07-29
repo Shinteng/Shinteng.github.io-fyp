@@ -1,0 +1,57 @@
+.detail {
+    font-family: "Inria Serif", serif;
+}
+
+.product-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+#myTab .nav-link {
+    color: grey;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#myTab .nav-link:hover {
+    color: black;
+}
+
+#myTab .nav-link.active {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.input-group {
+    width: auto;
+}
+
+.btn-dark {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-cart {
+    width: 50%;
+    margin-left: 10px;
+}

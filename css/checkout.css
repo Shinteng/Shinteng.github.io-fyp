@@ -1,0 +1,30 @@
+body {
+    font-family: "Inria Serif", serif;
+}
+
+.checkout-container {
+    margin: 5% 10%;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pay-now-btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}

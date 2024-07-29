@@ -1,0 +1,87 @@
+body {
+    font-family: 'Inria Serif', serif;
+}
+
+.profile-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.orders-section,
+.account-details-section {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.orders-section h4,
+.account-details-section h4 {
+    margin-bottom: 20px;
+    font-family: 'Inria Serif', serif;
+    font-weight: bold;
+}
+
+.order-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.order-card img {
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.order-details {
+    padding: 15px;
+    flex: 1;
+    position: relative;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-details h5 {
+    margin: 0;
+}
+
+.description {
+    color: gray;
+}
+
+.condition {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.account-details-section form .form-group {
+    margin-bottom: 15px;
+}
+
+.account-details-section form label {
+    font-weight: bold;
+    font-family: 'Inria Serif', serif;
+}
+
+.account-details-section form .form-control {
+    border-radius: 0;
+}
+
+.edit-button {
+    display: block;
+    width: 30%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+}

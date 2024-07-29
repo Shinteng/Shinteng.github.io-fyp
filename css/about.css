@@ -1,0 +1,68 @@
+.title {
+    font-family: "Inria Serif", serif;
+}
+
+.staff {
+    font-family: "Inria Serif", serif;
+    align-items: center;
+}
+
+.position {
+    color: #7D7D7D;
+}
+
+.staff p {
+    line-height: 2;
+}
+
+.service h2 {
+    font-family: "Inria Serif", serif;
+    margin-bottom: 30px;
+}
+
+.service .row {
+    justify-content: center;
+}
+
+.service .row>div {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.service .row>div:hover {
+    transform: translateY(-5px);
+}
+
+.service .row img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.service .row h4 {
+    margin-bottom: 15px;
+}
+
+.servicetext {
+    background-color: black;
+    color: white;
+    font-family: "Inria Serif", serif;
+    line-height: 1.5;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+
+    .staff .col-md-9 {
+        padding-top: 20px;
+    }
+
+    .staff .col-md-3.order-md-2 {
+        order: 1;
+    }
+
+    .staff .col-md-9.order-md-1 {
+        order: 2;
+    }
+}
